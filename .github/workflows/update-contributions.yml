@@ -1,6 +1,10 @@
 name: Refresh profile activity
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/contributions.svg"
   schedule:
     - cron: "17 6 * * *"
   workflow_dispatch:
