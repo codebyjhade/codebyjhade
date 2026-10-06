@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="350" viewBox="0 0 920 350" role="img" aria-labelledby="title desc">
+  <title id="title">Bryan Jhade profile terminal</title>
+  <desc id="desc">Animated terminal introduction for Bryan Jhade Bugauisan-Ebuan, a student product builder from the Philippines.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .serif { font-family: Georgia, "Times New Roman", serif; }
+    .muted { fill: #aaa8b2; }
+    .purple { fill: #8b7cff; }
+    .line { opacity: 0; animation: enter .45s ease-out forwards; }
+    .l1 { animation-delay: .25s; } .l2 { animation-delay: .8s; }
+    .l3 { animation-delay: 1.35s; } .l4 { animation-delay: 1.9s; }
+    .l5 { animation-delay: 2.45s; }
+    .cursor { animation: blink 1s steps(1,end) infinite; }
+    @keyframes enter { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .line { opacity: 1; animation: none; } .cursor { animation: none; } }
+  </style>
+  <rect x="1" y="1" width="918" height="348" rx="18" fill="#101014" stroke="#34343d" stroke-width="2"/>
+  <path d="M1 58H919" stroke="#34343d"/>
+  <circle cx="27" cy="29" r="5" fill="#8b7cff"/><circle cx="45" cy="29" r="5" fill="#65636d"/><circle cx="63" cy="29" r="5" fill="#65636d"/>
+  <text x="84" y="34" class="mono muted" font-size="13">CODEBYJHADE@GITHUB: ~/PROFILE</text>
+  <text x="800" y="34" class="mono muted" font-size="12">LOCAL / OPEN</text>
+
+  <g transform="translate(44 91)">
+    <path d="M72 20H20M72 63H28M72 106H20" fill="none" stroke="#f2f1ee" stroke-width="13" stroke-linecap="round"/>
+    <path d="M73 20H100C118 20 128 28 128 41C128 55 118 63 100 63H73M73 63H103C122 63 133 72 133 85C133 99 122 106 103 106H73" fill="none" stroke="#f2f1ee" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M73 10V116" stroke="#8b7cff" stroke-width="13" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(232 94)">
+    <text class="mono line l1" x="0" y="0" font-size="15"><tspan class="purple">guest@github:~$</tspan><tspan fill="#f2f1ee"> whoami</tspan></text>
+    <text class="serif line l2" x="0" y="55" fill="#f2f1ee" font-size="37">Bryan Jhade Bugauisan-Ebuan</text>
+    <text class="mono line l3 muted" x="0" y="91" font-size="15">Student product builder · Philippines</text>
+    <text class="mono line l4" x="0" y="132" font-size="14" fill="#d8d6df">I design and build useful software where</text>
+    <text class="mono line l4" x="0" y="157" font-size="14" fill="#d8d6df">frontend, AI, and thoughtful interaction meet.</text>
+    <text class="mono line l5" x="0" y="205" font-size="14"><tspan class="purple">status:</tspan><tspan fill="#f2f1ee"> building, learning, shipping</tspan><tspan class="cursor" fill="#8b7cff"> █</tspan></text>
+  </g>
+</svg>

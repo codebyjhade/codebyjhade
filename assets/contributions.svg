@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="190" viewBox="0 0 920 190" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub contribution activity</title>
+  <desc id="desc">Contribution activity will be generated after the first workflow run.</desc>
+  <rect x="1" y="1" width="918" height="188" rx="16" fill="#101014" stroke="#34343d" stroke-width="2"/>
+  <text x="30" y="37" fill="#8b7cff" font-family="monospace" font-size="13">ACTIVITY / LAST 12 MONTHS</text>
+  <g fill="#24242b">
+    <rect x="30" y="66" width="860" height="14" rx="4"/><rect x="30" y="90" width="700" height="14" rx="4"/><rect x="30" y="114" width="780" height="14" rx="4"/>
+  </g>
+  <text x="30" y="160" fill="#aaa8b2" font-family="monospace" font-size="13">Awaiting first automated refresh...</text>
+</svg>
